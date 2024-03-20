@@ -6,7 +6,8 @@
 
 ## News 
 
-- [2024.03.20] FedPHE source code has been released
+- [2024.03.21] Usage and Acknowledgments section.
+- [2024.03.20] FedPHE source code has been released.
 
 ## Abstract
 
@@ -91,7 +92,13 @@ python main.py --dataset MNIST --epochs 100 --lr 0.001 --n_clients 8 --topk 0.1 
 
 ![](https://cdn.jsdelivr.net/gh/lunan0320/pics@main/images/202403/image-20240320222216046.png)
 
+## Acknowledgments 
 
+I'd like to express my gratitude to the following projects and contributors for their work and contributions, which have been invaluable to this project:
 
+- [Gap_Statistic](https://github.com/username1/project1) - for their dynamically determined the suggested clusters in the data for unsupervised learning.
+- [BatchCrypt](https://github.com/username2/project2) -  for paper ATC'20 paper "BatchCrypt: Efficient Homomorphic Encryption for Cross-Silo Federated Learning".
+- [FLASHE](https://github.com/username3/project3) - for the innovative algorithms that inspired our "packed with sparsification" optimization techniques.
+- [Datasketch](https://github.com/ekzhu/datasketch) -  for the MinHash, LSH data sketch that can process and search very large amount of data super fast, with little loss of accuracy.
 
-
+This project also stands on the shoulders of numerous open-source contributors who make their work freely available for public use and modification. A heartfelt thank you to the open-source community for making this project possible.
