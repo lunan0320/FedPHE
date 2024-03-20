@@ -6,7 +6,7 @@
 
 ## News 
 
-- [2024.03.20] FedPHE source code has released
+- [2024.03.20] FedPHE source code has been released
 
 ## Abstract
 
@@ -14,7 +14,7 @@ Cross-silo federated learning (FL) enables multiple institutions (clients) to co
 
 ## Citation
 
-> You can cite the paper using the following bibtex.
+> If you find FedPHE useful or relevant to your research, please kindly cite our paper using the following bibtex.
 
 ```
 @InProceedings{Yan2024FedPHE,
@@ -56,8 +56,7 @@ conda activate FedPHE
 git clone git@github.com:lunan0320/FedPHE.git
 
 cd FedPHE
-mkdir data
-mkdir log
+mkdir data, log, data_dir
 
 # install the correct packages required
 pip install -r requirements.txt
@@ -80,6 +79,9 @@ python main.py --dataset MNIST --epochs 100 --lr 0.001 --n_clients 8 --topk 0.1 
 1. The package size for `paillier`, `bfv` and `ckks` are different. We always set `80` for paillier and `4096` for bfv and ckks. 
 2. You can adaptively choose whether to `encrypt`, whether to `select`, whether to `sparse`, etc.
 3. You can choose which encryption method to use. If you want to calculate a more accurate time cost, you can set `--cipher_count False` (there is also a certain time cost for counting cipher traffic)
+4. Please make sure your `GPU` has enough memory, `inter-process communication` ciphertext may cause `memory overflow`
+
+> Note: In order to communicate and synchronize between processes, the code uses the `torch.multiprocessing` library. We have set up more `locks`, `events`, `values`, `pipes`, and `queues`. If you are a novice in this area, do not modify these switches, as it may cause running failures.
 
 ## Results
 
