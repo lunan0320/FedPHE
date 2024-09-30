@@ -1,4 +1,4 @@
-# Efficient and Straggler-Resistant Homomorphic Encryption for Heterogeneous Federated Learning [[paper](https://liyuqingwhu.github.io/lyq/papers/INFOCOM2024-yan.pdf)]
+# Efficient and Straggler-Resistant Homomorphic Encryption for Heterogeneous Federated Learning [[paper](https://ieeexplore.ieee.org/abstract/document/10621440)]
 
 > Nan Yan, Yuqing Li, Jing Chen, Xiong Wang, Jianan Hong, Kun He, and Wei Wang. *IEEE INFOCOM 2024* 
 
@@ -18,11 +18,13 @@ Cross-silo federated learning (FL) enables multiple institutions (clients) to co
 > If you find FedPHE useful or relevant to your research, please kindly cite our paper using the following bibtex.
 
 ```
-@InProceedings{Yan2024FedPHE,
-  author  = {Yan, Nan and Li, Yuqing and Chen, Jing and Wang, Xiong and Hong, Jianan and He, Kun and Wang, Wei},
-  booktitle = {Proc. IEEE INFOCOM},
-  title   = {Efficient and Straggler-Resistant Homomorphic Encryption for Heterogeneous Federated Learning},
-  year    = {2024},
+@inproceedings{yan2024efficient,
+  title={Efficient and Straggler-Resistant Homomorphic Encryption for Heterogeneous Federated Learning},
+  author={Yan, Nan and Li, Yuqing and Chen, Jing and Wang, Xiong and Hong, Jianan and He, Kun and Wang, Wei},
+  booktitle={IEEE INFOCOM 2024-IEEE Conference on Computer Communications},
+  pages={791--800},
+  year={2024},
+  organization={IEEE}
 }
 ```
 
