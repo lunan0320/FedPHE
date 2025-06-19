@@ -9,7 +9,6 @@ from collections import OrderedDict
 import time
 import random
 from threading import Thread
-from utils.draw import draw_acc,draw_participation
 from utils.util import logging
 import tenseal as ts
 import pickle

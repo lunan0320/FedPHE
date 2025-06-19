@@ -18,7 +18,6 @@ from encryption.paillier import paillier_enc,paillier_dec
 import utils.min_hash as min_lsh
 
 import pickle
-from utils import sampling
 from multiprocessing import shared_memory
 
 
