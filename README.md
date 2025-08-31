@@ -4,10 +4,18 @@
 
 ![](https://cdn.jsdelivr.net/gh/lunan0320/pics@main/images/202403/image-20240320201923223.png)
 
+# FedPHE: A Secure and Efficient Federated Learning via Packed Homomorphic Encryption[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10989521)]
+
+> Yuqing Li, Nan Yan, Jing Chen, Xiong Wang, Jianan Hong, Kun He, Wei Wang, and Bo Li. *IEEE TDSC*
+
+![](./assets/FedPHE.png)
+
 ## News 
 
+- [2025.05.06] FedPHE has been accepted in IEEE TDSC.
 - [2024.03.21] Usage and Acknowledgments section.
 - [2024.03.20] FedPHE source code has been released.
+- [2023.12.01] Paper has been accepted in IEEE INFOCOM 2024.
 
 ## Abstract
 
@@ -25,6 +33,16 @@ Cross-silo federated learning (FL) enables multiple institutions (clients) to co
   pages={791--800},
   year={2024},
   organization={IEEE}
+}
+```
+
+```
+@article{li2025fedphe,
+  title={FedPHE: A Secure and Efficient Federated Learning via Packed Homomorphic Encryption},
+  author={Li, Yuqing and Yan, Nan and Chen, Jing and Wang, Xiong and Hong, Jianan and He, Kun and Wang, Wei and Li, Bo},
+  journal={IEEE Transactions on Dependable and Secure Computing},
+  year={2025},
+  publisher={IEEE}
 }
 ```
 
